@@ -67,14 +67,11 @@ ul.nav li:hover ul {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .footer_container {
-
     position: relative;
-    /*margin-top: -180px;  negative value of footer height */
     height: 180px;
     clear:both;
     bottom:0;
-    width:100%;
     padding-left: 40px;
     padding-top: 20px;
-    margin: 10px;
+    margin-top: 10px;
 }
