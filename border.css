@@ -1,0 +1,24 @@
+.border1{
+    margin: 10px;
+    padding: 10px;
+}
+.border2{
+    margin: 10px;
+    padding: 10px;
+}
+.border3{
+    margin: 20px;
+    width: 250px;
+    border: 10px ridge #90c3ff;
+    padding: 10px;
+}
+.border4{
+    margin: 20px;
+    width: 250px;
+    border: 10px inset #ff7167;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.float{
+    float: left;
+}

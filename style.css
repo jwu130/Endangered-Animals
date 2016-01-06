@@ -1,0 +1,19 @@
+.main > h1{
+	color: green;
+	text-align: center;
+}
+
+.main > h2{
+	color: black;
+	text-align: center;
+}
+
+.image > img{
+	float: left;
+	margin-right: 20px;
+}
+#body{
+	border-style: inset;
+	padding: 10px;
+	width: 500px;
+}
