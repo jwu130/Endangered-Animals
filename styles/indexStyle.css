@@ -1,0 +1,26 @@
+.container {
+        background:#FFFFFF;
+        width: 800px;
+        margin: 0 auto; 
+        border: 5px solid #000000;
+        padding: 5px;
+        text-align: left; 
+}
+.picSlider {
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+}
+.slides {
+	display: block;
+	width: 8000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+.slide {
+	float: left;
+	list-style-type: none;
+	width: 800px;
+	height: 400px;
+}
