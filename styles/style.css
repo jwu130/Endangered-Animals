@@ -57,21 +57,37 @@ ul.nav li:hover ul {
     visibility: visible;
 }
 .logo {
-    max-height: 70px;
-    max-width: 80px;
-    padding: 0;
+    max-height: 90px;
+    max-width: 90px;
 }
 .nav_container { 
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin:20px;
+    padding-left: 35px;
 }
 .footer_container {
+    font: bold 12px/18px sans-serif;
     position: relative;
     height: 180px;
     clear:both;
     bottom:0;
     padding-left: 40px;
     padding-top: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+a.nav {
+    text-decoration: none;
+    color: black;
+}
+li.logo:hover {
+    background: #fff; 
+}
+img.footerlogo {
+    max-height: 150px;
+    max-width: 150px;
+    float: right;
+    padding: 30px;
 }
