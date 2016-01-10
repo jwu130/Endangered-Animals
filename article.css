@@ -148,3 +148,29 @@ select{
     padding-left:10px;
 }
 
+.buttonSubmit {
+    float: none;
+    width: 90%;
+    max-width: none;
+    display: block;
+    margin: 10px auto 15px;
+    background: #7f9db9;
+    border-color: #7f9db9;
+    color: #fff;
+    font-size: 1.7em;
+    font-family: 'bebas_neueregular', sans-serif;
+}
+
+.buttonSubmit:hover {
+    float: none;
+    width: 90%;
+    max-width: none;
+    display: block;
+    margin: 10px auto 15px;
+    background: #4CAF50;
+    border-color: #4CAF50;
+    color: #fff;
+    font-size: 1.7em;
+    font-family: 'bebas_neueregular', sans-serif;
+}
+
